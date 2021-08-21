@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <title>Register Page</title>
+    <link rel="stylesheet"type="text/css" href="css/pro.css">
+    <script type="text/javascript">
+        function LoginForm()
+        {
+            var username=document.loginForm.username.value;
+            var password=document.loginForm.password.value;
+            var firstname=document.loginForm.firstname.value;
+            var lastname=document.loginForm.lastname.value;
+            var dob=document.loginForm.dob.value;
+            var reenter=document.loginForm.reenter.value
+            var number=document.loginForm.number.value
+            var email=document.loginForm.email.value
+            
+            
+            if(firstname==null||firstname=="")
+            {
+                alert("First Name cannot be empty");
+                return false;
+            }
+            if(lastname==null||lastname=="")
+            {
+                alert("Last Name cannot be empty");
+                return false;
+            }
+            if(username==firstname)
+            {
+                alert("Username cannot be First Name");
+                return false;
+            }
+            if(number==null||number=="")
+            {
+                alert("Phone Number cannot be empty");
+                return false;
+            }
+            if(username==lastname)
+            {
+                alert("Username cannot be Last Name");
+                return false;
+            }
+            if(username==null||username=="")
+            {
+                alert("Username cannot be empty");
+                return false;
+            }
+            if(dob==null||dob=="")
+            {
+                alert("Date Of Birth cannot be empty");
+                return false;
+            }
+            if(reenter!=password)
+            {
+                alert("Passwords don't match");
+                return false
+            }
+            if(password==null||password=="")
+            {
+                alert("Password cannot be empty");
+                return false;
+            }
+           
+            else if(password.length<6)
+            {
+                alert("Password must be at least 6 characters long");
+                return false;
+            }
+          
+
+            
+        }
+        </script>
+</head>
+<body>   
+    <ul>
+        <li><a href="project.html">Home</a></li>
+        <li><a href="at.html">About</a></li>
+          
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Programs</a>
+          <div class="dropdown-content">
+            <a href="#">Sunday Schools</a>
+            <a href="#">Donations</a>
+            <a href="P&P.html">Preaching and Prayer</a>
+        
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Church</a>
+          <div class="dropdown-content">
+            <a href="#">Testimonies</a>
+            <a href="#">Live Broadcasts</a>
+            <a href="#">Conventions</a>
+            <a href="registerpro.html">Join us</a>
+          </div>
+        </li>
+        <li class="dropdown" style="float: right;">
+          <a href="javascript:void(0)" class="dropbtn">Section</a>
+          <div class="dropdown-content">
+            <a href="#">Executives</a>
+            <a href="#">Children</a>
+            <a href="women.html">Women</a>
+            <a href="#">Missionaries</a>
+            <a href="#">Headquaters</a>
+          </div>
+        </li>
+        
+      </ul>  
+   <br>
+    <div class="form">
+        <form name="loginForm" onsubmit="return LoginForm()">
+            <h3>First Name</h3>
+            <br><input type="text" class="input" name="firstname" placeholder="Enter Your First Name"><br><br>
+            <h3>Last Name</h3>
+            <br><input type="text" class="input" name="lastname" placeholder="Enter Your Last Name" ><br><br>
+            <h3>Username</h3>
+            <br><input type="text" class="input" name="username" placeholder="Enter Your Preferred Username"><br><br>
+            <h3>Date of Birth</h3>
+            <br><input type="date" value="2020-03-15" class="input" name="dob" placeholder="Enter Your Date Of Birth" ><br><br>
+            <h3>Phone Number</h3>
+            <br><input type="tel" class="input" name="number" placeholder="Enter Your Phone Number"><br><br>
+            <h3>Email</h3>
+            <br><input type="email" class="input" name="email" placeholder="Enter Your Email"><br><br>
+            <h3>Password</h3>
+            <input type="password"  class="input" name="password" placeholder="Enter Your Password"><br><br>
+            <h3>Re-enter Password</h3>
+            <input type="password" class="input" name="reenter" placeholder="Re-enter Your Password"><br><br>
+            <button type="submit">Register</button>
+                 
+         </form>
+
+
+   </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
