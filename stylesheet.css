@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Container{
+    position: relative;
+    width:100%;
+    background-color:dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#callus2{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#callus2 img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+#mailus{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#mailus img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+#container span{
+    color: white;
+}
+#Links{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+#Links .brand-logo{
+    color: #333;
+    padding-left: 5px;
+}
+#Links .nav-links a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    color: dodgerblue;
+}
+
+#Links .nav-links a:hover{
+    color: white;
+    background: #2b6bac;
+    border-radius: 4px
+}
+
+#Picture{
+    position: relative;
+    width:100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between;
+    padding: 10px; */
+}
+
+#scroll img{
+    width: 100%;
+    height: 500px;
+} 
+
+div.text {
+    position: absolute;
+    top: 40%;
+    left: 70px;
+    color: white
+}
+.text div {
+    margin-bottom: 30px;
+}
+.text span{
+    background-color: #5296da;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#bottom {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+
+
+#bottom span{
+    color:rgb(130, 130, 172);
+    font-size: 30px;
+    font-weight: 50px;
+    
+    
+}
+#About{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.perfect img{
+    width: 100%;
+    height: 200px;
+}
+
+.perfect img{
+    width: 100%;
+    height: 200px;
+}
+
+
+div.text2 {
+    color:whitesmoke;
+    
+}
+
+.test p{
+    /* height:100%;
+    width:100%; */
+    /* padding: 10px; */
+    /* border-radius: 50%; */
+    font-size: 10px;
+    text-align:center;
+    /* text-shadow: 0.5px 0.5px 1px rgb(130, 130, 172);
+    shape-outside:circle(50%);
+    shape-margin: 1%; */
+    font-family: sans-serif;
+    /* line-height: 1px; */
+    margin: auto;
+    border: 1px solid green
+
+}
+
+.test {
+    display: flex;
+    border-radius:50%;
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(224, 24, 74);
+
+}
+.Info {
+    /* display:flex; */
+    background-color: bisque;
+    font: size 20px;
+    width: 50%
+    
+}
+footer{
+    padding: 15px;
+
+}
+* {box-sizing: border-box}
+
+
+.container {
+  padding: 16px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.container a{
+  
+  color: darkmagenta;
+  padding: 4px 2px;
+ 
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+
